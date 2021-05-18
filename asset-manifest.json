@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/weekly-planner-react/static/css/main.a8935448.chunk.css",
+    "main.js": "/weekly-planner-react/static/js/main.51b969c7.chunk.js",
+    "main.js.map": "/weekly-planner-react/static/js/main.51b969c7.chunk.js.map",
+    "runtime-main.js": "/weekly-planner-react/static/js/runtime-main.ca8ceab1.js",
+    "runtime-main.js.map": "/weekly-planner-react/static/js/runtime-main.ca8ceab1.js.map",
+    "static/js/2.ee8990cb.chunk.js": "/weekly-planner-react/static/js/2.ee8990cb.chunk.js",
+    "static/js/2.ee8990cb.chunk.js.map": "/weekly-planner-react/static/js/2.ee8990cb.chunk.js.map",
+    "static/js/3.c1dbc1c1.chunk.js": "/weekly-planner-react/static/js/3.c1dbc1c1.chunk.js",
+    "static/js/3.c1dbc1c1.chunk.js.map": "/weekly-planner-react/static/js/3.c1dbc1c1.chunk.js.map",
+    "index.html": "/weekly-planner-react/index.html",
+    "static/css/main.a8935448.chunk.css.map": "/weekly-planner-react/static/css/main.a8935448.chunk.css.map",
+    "static/js/2.ee8990cb.chunk.js.LICENSE.txt": "/weekly-planner-react/static/js/2.ee8990cb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca8ceab1.js",
+    "static/js/2.ee8990cb.chunk.js",
+    "static/css/main.a8935448.chunk.css",
+    "static/js/main.51b969c7.chunk.js"
+  ]
+}
