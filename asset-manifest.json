@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/weekly-planner-react/static/css/main.a8935448.chunk.css",
-    "main.js": "/weekly-planner-react/static/js/main.58d3d03b.chunk.js",
-    "main.js.map": "/weekly-planner-react/static/js/main.58d3d03b.chunk.js.map",
+    "main.js": "/weekly-planner-react/static/js/main.b54f1762.chunk.js",
+    "main.js.map": "/weekly-planner-react/static/js/main.b54f1762.chunk.js.map",
     "runtime-main.js": "/weekly-planner-react/static/js/runtime-main.ca8ceab1.js",
     "runtime-main.js.map": "/weekly-planner-react/static/js/runtime-main.ca8ceab1.js.map",
     "static/js/2.ee8990cb.chunk.js": "/weekly-planner-react/static/js/2.ee8990cb.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ca8ceab1.js",
     "static/js/2.ee8990cb.chunk.js",
     "static/css/main.a8935448.chunk.css",
-    "static/js/main.58d3d03b.chunk.js"
+    "static/js/main.b54f1762.chunk.js"
   ]
 }
