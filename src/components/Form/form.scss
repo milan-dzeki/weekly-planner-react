@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  &__center {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 1px 2px 5px rgba(black, 0.7);
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    background-color: rgb(50, 173, 161);
+    padding: 1.2rem 0;
+  }
+
+  &__form {
+    padding: 1.5rem 3rem;
+    background-color: rgb(196, 255, 247);
+  }
+
+  &__control {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+
+  &__label {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    display: block;
+    width: 12rem;
+  }
+
+  &__input {
+    display: block;
+    outline: none;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    flex: 1;
+  }
+
+  &__submit {
+    background-color: cadetblue;
+    color: white;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    width: 15rem;
+    padding: 0.7rem 0;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,16 @@
+.home {
+  &__tasks {
+    &-title {
+      text-align: center;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      background-color: rgb(10, 126, 126);
+      color: white;
+      padding: 1.5rem 0;
+    }
+
+    &-boxes {
+      padding: 2rem;
+    }
+  }
+}

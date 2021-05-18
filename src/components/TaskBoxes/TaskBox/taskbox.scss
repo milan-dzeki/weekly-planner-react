@@ -1,0 +1,63 @@
+.taskbox {
+  background-color: rgb(197, 240, 241);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+
+  &__day {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    padding: 1.5rem 0;
+    background-color: rgb(65, 150, 153);
+    color: white;
+  }
+
+  &__items {
+    margin-bottom: 4rem;
+  }
+
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    // max-width: 50rem;
+    margin: 0 auto;
+    // border: 1px solid black;
+
+    &-name {
+      font-size: 1.8rem;
+    }
+
+    &-btns {
+      display: flex;
+
+      & > * {
+        &:not(:last-child) {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+// taskboxes done
+.taskboxes__done {
+  .taskbox {
+    background-color: rgb(163, 237, 255);
+    &__day {
+      background-color: rgb(35, 121, 192);
+    }
+  }
+}
+
+// taskboxes failed
+.taskboxes__failed {
+  .taskbox {
+    background-color: rgb(250, 208, 203);
+    &__day {
+      background-color: rgb(192, 51, 35);
+    }
+  }
+}

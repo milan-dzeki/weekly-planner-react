@@ -1,0 +1,31 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  display: block;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-out;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

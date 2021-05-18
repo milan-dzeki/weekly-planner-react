@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Layout from './containers/Layout/Layout';
+import { Switch, Route } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Done from './pages/Done/Done';
+import Failed from './pages/Failed/Failed';
+import Stats from './pages/Stats/Stats';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Layout>
+      <Switch>
+        <Route
+          path="/"
+          exact
+          component={Home} />
+        <Route
+          path="/done"
+          exact
+          component={Done} />
+        <Route
+          path="/failed"
+          exact
+          component={Failed} />
+        <Route
+          path="/stats"
+          exact
+          component={Stats} />
+      </Switch>
+    </Layout>
+  )
 }
 
-export default App;
+export default App
+
